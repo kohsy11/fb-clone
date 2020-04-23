@@ -1,0 +1,337 @@
+body {
+    width: 375px;
+    height: 812px;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    margin-left: 0px;
+}
+#status_w {
+    font-size: 20px;
+    margin-left: 4%;
+}
+#live {
+    color: red;
+}
+#photo {
+    color: yellowgreen;
+}
+#check_in {
+    color: palevioletred;
+}
+#gray {
+    color: grey;
+    margin-left: 3%;
+}
+#home {
+    color: dodgerblue;
+    font-size: 30px;
+}
+#bottom_icon {
+    color: #656565;
+    font-size: 30px;
+}
+#feed_info_icon {
+    font-size: 30px;
+    color: #656565;
+    margin-top: 10px;
+}
+#date {
+    color: gray;
+    margin-top: 1%;
+    font-size: 15px;
+}
+#globe {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 14px;
+    margin-left: 10px;
+}
+.top_bar {
+    background-color: white;
+    width: 375px;
+    height: 20px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.time_and_connection {
+    width: 100%;
+    margin-top: 20px;
+}
+.nav_top {
+    width: 375px;
+    height: 40px;
+    margin-top: 10%;
+    display: flex;
+    padding-left: 10px;
+}
+.nav_top1 {
+    width: 70%;
+}
+.fb_logo {
+    width: 50%
+}
+.nav_top2 {
+    width: 30%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_top_icon {
+    background-color: #e4e3e3;
+    width: 35%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin-left: 3%;
+}
+.story {
+    width: 100%;
+    padding: 3%;
+}
+.story_box {
+    width: 60%;
+}
+.gray_box {
+    width: 375px;
+    height: 5px;
+    background-color: #e4e3e3;
+}
+.status {
+    width: 100%;
+    height: 17%;
+}
+.status1 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.my_profile {
+    width: 10%;
+    border-radius: 100%;
+}
+.status_w {
+    width: 75%;
+}
+.status2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
+}
+.status2_button {
+    width: 20%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feed {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+.feed_info {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+.iu_profile {
+    width: 15%;
+    border-radius: 100%;
+    padding: 3%;
+}
+.iu_info {
+    width: 75%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.info1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.user {
+    margin-bottom: 0;
+    margin-left: 0;
+    font-weight: 600;
+}
+.info2 {
+    width: 88%;
+    display: flex;
+    padding-left: 3%;
+}
+.dates {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feed_text {
+    width: 100%;
+    height: 30%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.ft_line1 {
+    width: 90%
+}
+.ft_line2 {
+    display: flex;
+}
+.feed_photo {
+    width: 375px;
+    height: 430px;
+    display: flex;
+    justify-content: flex-start;
+}
+.photo_line1 {
+    width: 65%;
+    height: 430px;
+    display: flex;
+    margin-right: 5px;
+}
+.photo_line2 {
+    width: 35%;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+.line1pic {
+    width: 100%;
+    padding: 3px;
+}
+.line2pic {
+    width: 100%;
+    height: 137px;
+    padding: 3px;
+}
+.iu_1 {
+    width: 100%;
+    height: 137px;
+    padding: 3px;
+}
+.more {
+    width: 100%;
+    height: 137px;
+    bottom: 100px;
+}
+.black_box {
+    width: 131px;
+    height: 136px;
+    background-color: black;
+    opacity: 0.3;
+    position: relative;
+    z-index: 1;
+    bottom: 144px;
+    left: 2px;
+}
+.white_w {
+    font-weight: 300;
+    color: white;
+    font-size: 30px;
+    width: 133px;
+    height: 137px;
+    position: relative;
+    z-index: 1;
+    bottom: 265px;
+    left: 17px;
+}
+.num {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+.num_like {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.num p {
+    color: gray;
+}
+.like_png {
+    width: 37%;
+}
+.num_comment_share {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.num_icon {
+    width: 13%;
+    height: 30px;
+    margin-top: 2%;
+}
+.action {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-top: 1px solid #e4e3e3;
+    border-bottom: 5px solid #e4e3e3;
+}
+.action_box {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.action_box .material-icons {
+    color:#656565;
+    margin-right: 3px;
+}
+.action_box p {
+    color: #656565;
+}
+.nav_bottom {
+    background-color: white;
+    width: 375px;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+.nav_bottom_box {
+    width: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue_box {
+    width: 44px;
+    background-color: dodgerblue;
+    height: 2px;
+    position: fixed;
+    bottom: 43px;
+    left: 17px;
+}
+
